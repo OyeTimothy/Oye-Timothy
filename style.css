@@ -30,6 +30,7 @@ a{
     top: 200px;
     left: -50px;
     margin: 0;
+    z-index: 1;
 }
 
 
@@ -53,7 +54,7 @@ a{
     left: 0;
     width: 100%;
     backdrop-filter: blur(10px);
-    z-index: 90;
+    z-index: 1000;
     margin-top: 0;
     max-width: 100%;
     display: flex;
@@ -892,7 +893,7 @@ a{
 
 .biz{
     margin-top: 154px;
-    z-index: 0;
+    z-index: 100;
     color: white; 
 }
 
@@ -900,6 +901,7 @@ a{
     align-items: center;
     width: 100%;
     margin-top: 148px;
+    z-index: 100;
 }
 
 .page-intro{
